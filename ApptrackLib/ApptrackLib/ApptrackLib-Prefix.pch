@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ApptrackLib' target in the 'ApptrackLib' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

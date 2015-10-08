@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B8D6F351BBD226C00FFCD37 /* AppTrackAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D6F261BBD226C00FFCD37 /* AppTrackAPI.m */; };
+		8B8D6F361BBD226C00FFCD37 /* BatteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D6F281BBD226C00FFCD37 /* BatteryController.m */; };
+		8B8D6F371BBD226C00FFCD37 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D6F2A1BBD226C00FFCD37 /* Database.m */; };
+		8B8D6F381BBD226C00FFCD37 /* GeoServiceValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D6F2C1BBD226C00FFCD37 /* GeoServiceValues.m */; };
+		8B8D6F391BBD226C00FFCD37 /* GlobalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D6F2E1BBD226C00FFCD37 /* GlobalVariables.m */; };
+		8B8D6F3A1BBD226C00FFCD37 /* ParamValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D6F301BBD226C00FFCD37 /* ParamValueObject.m */; };
+		8B8D6F3B1BBD226C00FFCD37 /* StoreParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D6F321BBD226C00FFCD37 /* StoreParams.m */; };
+		8B8D6F3C1BBD226C00FFCD37 /* StorePoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D6F341BBD226C00FFCD37 /* StorePoints.m */; };
+		8BFDBC7917535E9F006E9A53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFDBC7817535E9F006E9A53 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BFDBC7317535E9F006E9A53 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B8D6F251BBD226C00FFCD37 /* AppTrackAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppTrackAPI.h; path = ../AppTrackAPI.h; sourceTree = "<group>"; };
+		8B8D6F261BBD226C00FFCD37 /* AppTrackAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppTrackAPI.m; path = ../AppTrackAPI.m; sourceTree = "<group>"; };
+		8B8D6F271BBD226C00FFCD37 /* BatteryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatteryController.h; path = ../BatteryController.h; sourceTree = "<group>"; };
+		8B8D6F281BBD226C00FFCD37 /* BatteryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatteryController.m; path = ../BatteryController.m; sourceTree = "<group>"; };
+		8B8D6F291BBD226C00FFCD37 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Database.h; path = ../Database.h; sourceTree = "<group>"; };
+		8B8D6F2A1BBD226C00FFCD37 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Database.m; path = ../Database.m; sourceTree = "<group>"; };
+		8B8D6F2B1BBD226C00FFCD37 /* GeoServiceValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoServiceValues.h; path = ../GeoServiceValues.h; sourceTree = "<group>"; };
+		8B8D6F2C1BBD226C00FFCD37 /* GeoServiceValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeoServiceValues.m; path = ../GeoServiceValues.m; sourceTree = "<group>"; };
+		8B8D6F2D1BBD226C00FFCD37 /* GlobalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobalVariables.h; path = ../GlobalVariables.h; sourceTree = "<group>"; };
+		8B8D6F2E1BBD226C00FFCD37 /* GlobalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GlobalVariables.m; path = ../GlobalVariables.m; sourceTree = "<group>"; };
+		8B8D6F2F1BBD226C00FFCD37 /* ParamValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParamValueObject.h; path = ../ParamValueObject.h; sourceTree = "<group>"; };
+		8B8D6F301BBD226C00FFCD37 /* ParamValueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParamValueObject.m; path = ../ParamValueObject.m; sourceTree = "<group>"; };
+		8B8D6F311BBD226C00FFCD37 /* StoreParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoreParams.h; path = ../StoreParams.h; sourceTree = "<group>"; };
+		8B8D6F321BBD226C00FFCD37 /* StoreParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoreParams.m; path = ../StoreParams.m; sourceTree = "<group>"; };
+		8B8D6F331BBD226C00FFCD37 /* StorePoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StorePoints.h; path = ../StorePoints.h; sourceTree = "<group>"; };
+		8B8D6F341BBD226C00FFCD37 /* StorePoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StorePoints.m; path = ../StorePoints.m; sourceTree = "<group>"; };
+		8BFDBC7517535E9F006E9A53 /* libApptrackLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libApptrackLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFDBC7817535E9F006E9A53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BFDBC7C17535E9F006E9A53 /* ApptrackLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApptrackLib-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BFDBC7217535E9F006E9A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFDBC7917535E9F006E9A53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BFDBC6C17535E9F006E9A53 = {
+			isa = PBXGroup;
+			children = (
+				8BFDBC7A17535E9F006E9A53 /* ApptrackLib */,
+				8BFDBC7717535E9F006E9A53 /* Frameworks */,
+				8BFDBC7617535E9F006E9A53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BFDBC7617535E9F006E9A53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BFDBC7517535E9F006E9A53 /* libApptrackLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BFDBC7717535E9F006E9A53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BFDBC7817535E9F006E9A53 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BFDBC7A17535E9F006E9A53 /* ApptrackLib */ = {
+			isa = PBXGroup;
+			children = (
+				8B8D6F251BBD226C00FFCD37 /* AppTrackAPI.h */,
+				8B8D6F261BBD226C00FFCD37 /* AppTrackAPI.m */,
+				8B8D6F271BBD226C00FFCD37 /* BatteryController.h */,
+				8B8D6F281BBD226C00FFCD37 /* BatteryController.m */,
+				8B8D6F291BBD226C00FFCD37 /* Database.h */,
+				8B8D6F2A1BBD226C00FFCD37 /* Database.m */,
+				8B8D6F2B1BBD226C00FFCD37 /* GeoServiceValues.h */,
+				8B8D6F2C1BBD226C00FFCD37 /* GeoServiceValues.m */,
+				8B8D6F2D1BBD226C00FFCD37 /* GlobalVariables.h */,
+				8B8D6F2E1BBD226C00FFCD37 /* GlobalVariables.m */,
+				8B8D6F2F1BBD226C00FFCD37 /* ParamValueObject.h */,
+				8B8D6F301BBD226C00FFCD37 /* ParamValueObject.m */,
+				8B8D6F311BBD226C00FFCD37 /* StoreParams.h */,
+				8B8D6F321BBD226C00FFCD37 /* StoreParams.m */,
+				8B8D6F331BBD226C00FFCD37 /* StorePoints.h */,
+				8B8D6F341BBD226C00FFCD37 /* StorePoints.m */,
+				8BFDBC7B17535E9F006E9A53 /* Supporting Files */,
+			);
+			path = ApptrackLib;
+			sourceTree = "<group>";
+		};
+		8BFDBC7B17535E9F006E9A53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BFDBC7C17535E9F006E9A53 /* ApptrackLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BFDBC7417535E9F006E9A53 /* ApptrackLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFDBC8317535E9F006E9A53 /* Build configuration list for PBXNativeTarget "ApptrackLib" */;
+			buildPhases = (
+				8BFDBC7117535E9F006E9A53 /* Sources */,
+				8BFDBC7217535E9F006E9A53 /* Frameworks */,
+				8BFDBC7317535E9F006E9A53 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApptrackLib;
+			productName = ApptrackLib;
+			productReference = 8BFDBC7517535E9F006E9A53 /* libApptrackLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BFDBC6D17535E9F006E9A53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CICtourGUNE;
+			};
+			buildConfigurationList = 8BFDBC7017535E9F006E9A53 /* Build configuration list for PBXProject "ApptrackLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BFDBC6C17535E9F006E9A53;
+			productRefGroup = 8BFDBC7617535E9F006E9A53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BFDBC7417535E9F006E9A53 /* ApptrackLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BFDBC7117535E9F006E9A53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8D6F351BBD226C00FFCD37 /* AppTrackAPI.m in Sources */,
+				8B8D6F381BBD226C00FFCD37 /* GeoServiceValues.m in Sources */,
+				8B8D6F3C1BBD226C00FFCD37 /* StorePoints.m in Sources */,
+				8B8D6F371BBD226C00FFCD37 /* Database.m in Sources */,
+				8B8D6F391BBD226C00FFCD37 /* GlobalVariables.m in Sources */,
+				8B8D6F3B1BBD226C00FFCD37 /* StoreParams.m in Sources */,
+				8B8D6F3A1BBD226C00FFCD37 /* ParamValueObject.m in Sources */,
+				8B8D6F361BBD226C00FFCD37 /* BatteryController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BFDBC8117535E9F006E9A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		8BFDBC8217535E9F006E9A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		8BFDBC8417535E9F006E9A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ApptrackLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApptrackLib/ApptrackLib-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		8BFDBC8517535E9F006E9A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ApptrackLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApptrackLib/ApptrackLib-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BFDBC7017535E9F006E9A53 /* Build configuration list for PBXProject "ApptrackLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFDBC8117535E9F006E9A53 /* Debug */,
+				8BFDBC8217535E9F006E9A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFDBC8317535E9F006E9A53 /* Build configuration list for PBXNativeTarget "ApptrackLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFDBC8417535E9F006E9A53 /* Debug */,
+				8BFDBC8517535E9F006E9A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BFDBC6D17535E9F006E9A53 /* Project object */;
+}
